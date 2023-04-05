@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    
+    @IBAction func usernameTextFieldFilled(_ sender: UITextField) {
+        
+        print("username is " + sender.text!)
+    }
+    
+    @IBAction func passwordTextFieldFilled(_ sender: UITextField) {
+        
+        print("password is " + sender.text!)
+    }
 }
 
